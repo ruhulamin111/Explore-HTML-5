@@ -7,31 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore HTML 5</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <h1>Exploring HTML 5</h1>
     </header>
-
+    <!-- media -->
     <section>
         <!-- audio element -->
-        <h2>Audio Clips</h2>
+        <h2 class="media">Audio Clips</h2>
         <audio src="./media/audio.wav" controls></audio><br>
-
         <!-- video element -->
-        <h2>Video Clips</h2>
+        <h2 class="media">Video Clips</h2>
         <video src="./media/video.mp4" controls width="400"></video><br>
-
         <!-- youtube video -->
-        <h2>Youtube Video Clips</h2>
+        <h2 class="media">Youtube Video Clips</h2>
         <iframe width="400" height="300" src="https://www.youtube.com/embed/-9Pw6M5Dt-c" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
     </section>
-    <section>
+    <!-- blog -->
+    <section class="blog">
         <div>
             <h2>Blog-1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, delectus dignissimos. Delectus, dicta
@@ -51,56 +51,58 @@
                 provident. Doloribus, consectetur natus.</p>
         </div>
     </section>
-
-    <table>
-        <thead>
-            <tr>
-                <th>No.</th>
-                <th>Full Name</th>
-                <th>Email</th>
-                <th>Phone</th>
-                <th>Address</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Abdul Baten</td>
-                <td>abdul@gmail.com</td>
-                <td>24655325</td>
-                <td>Mazar Road</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Almas Chowdhury </td>
-                <td>almas@yahoo.com</td>
-                <td>96547856</td>
-                <td>Mirpur 1</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Monoar Hossen</td>
-                <td>hossen@outlook.com</td>
-                <td>96327412</td>
-                <td>Gabtoli</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Tipu Sultan</td>
-                <td>tipu@hotmail.com</td>
-                <td>85239632</td>
-                <td>Dhaka</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Asraf Chowdhury</td>
-                <td>chowdhury@gmail.com</td>
-                <td>85239874</td>
-                <td>Bangladesh</td>
-            </tr>
-        </tbody>
-    </table>
-
+    <!-- table -->
+    <section class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Abdul Baten</td>
+                    <td>abdul@gmail.com</td>
+                    <td>24655325</td>
+                    <td>Mazar Road</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Almas Chowdhury </td>
+                    <td>almas@yahoo.com</td>
+                    <td>96547856</td>
+                    <td>Mirpur 1</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Monoar Hossen</td>
+                    <td>hossen@outlook.com</td>
+                    <td>96327412</td>
+                    <td>Gabtoli</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Tipu Sultan</td>
+                    <td>tipu@hotmail.com</td>
+                    <td>85239632</td>
+                    <td>Dhaka</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Asraf Chowdhury</td>
+                    <td>chowdhury@gmail.com</td>
+                    <td>85239874</td>
+                    <td>Bangladesh</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- footer -->
     <footer>
         <p>This is a blog site</p>
     </footer>

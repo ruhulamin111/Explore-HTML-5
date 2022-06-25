@@ -1,9 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 table {
     border-collapse: collapse;
+    margin-left: 20px;
 }
 
 td,
 th {
     border: 1px solid seagreen;
     padding: 5px 10px;
+}
+
+header h1 {
+    text-align: center;
+    color: tomato;
+}
+
+.media {
+    text-align: center;
+    color: seagreen;
+    margin: 20px 0;
+}
+
+.blog div {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.blog div h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
 }
