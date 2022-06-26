@@ -56,3 +56,8 @@ footer {
 footer p {
     text-align: center;
 }
+
+.emoji {
+    border: 1px solid springgreen;
+    margin: 30px;
+}
